@@ -18,3 +18,5 @@ function validationEmail() {
         console.error("Email input element not found!");
     }
 }
+
+

@@ -98,6 +98,18 @@ body {
     width: 100%;
     font-size: 18px;
     font-weight: 400;
+    position: relative;
+}
+.notvalid{
+    border: 1px solid red;
+}
+
+#email-error{
+        position: absolute;
+        color: red;
+        font-size: 13px;
+        right: 22px;
+        bottom: 5px;
 }
 
 .box form input:focus {
